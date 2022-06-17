@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+@media screen and (max-width: 414px){
+    body{
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    background-image: url(images/bg-intro-desktop.png);
+    width: 100vw;
+    font-family: Poppins;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
+        width: 100%;
+    }
+    main{
+    
+    margin: auto;
+    height: 500px;
+    
+    align-items: center;
+}
+    .learn{
+        padding: 20px;
+    }
+        h1{
+    font-size: 30px;
+        
+    }
+
+
+.learn{
+    padding-top: 60px;
+    width: 240px
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    height: 30px;
+    width: 20em;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+  .try{
+    
+    background-color:hsl(246, 25%, 77%) ;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    width: 240px;
+
+}
+.form{
+    width: 255px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+   
+    
+
+}
+.learn{
+    padding-top: 60px;
+}
+input{
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20em;
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.form > p{
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+}
+span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+    .free{
+        width: 100px
+    }  
+    
+}
+@media screen and (min-width: 415px){
+  body{
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    background-image: url(images/bg-intro-desktop.png);
+    font-family: Poppins;
+    font-weight: 400;
+    display: flex;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+.try{
+    
+    background-color:hsl(246, 25%, 77%) ;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+}
+.form{
+    min-width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.learn{
+    padding-top: 60px;
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20em;
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 10px;
+    height: 30px;
+    width: 20em;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.form > p{
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
+span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+
+
+  
+
+}
